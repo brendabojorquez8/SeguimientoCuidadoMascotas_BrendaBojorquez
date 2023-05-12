@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/shape"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_menu"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:text="9 de marzo"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/circle_background"
+                android:paddingHorizontal="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/frec"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="38,0°C - 8:00am"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".account.CodigoActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/beige">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginVertical="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingLeft="30dp"
+            android:paddingRight="70dp"
+            android:text="@string/contraOlvidadaT"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/contraOlvidada"
+                android:textColor="@color/black"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_corner"
+                android:paddingBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="30dp">
+                <EditText
+                    android:id="@+id/et_codigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="10dp"
+                    android:hint="Código de verificación"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@color/rosaPastel" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_reenviar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/moradoPastel"
+                android:radius="8dp"
+                android:text="Reenviar código"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_cotinuar"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:text="@string/botonCuenta"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

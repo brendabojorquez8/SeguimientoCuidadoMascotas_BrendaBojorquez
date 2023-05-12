@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/shape"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_menu"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:text="9 de marzo"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+            <GridView
+                android:id="@+id/gridDato"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="20dp"
+                android:nestedScrollingEnabled="true"/>
+    </LinearLayout>
+</LinearLayout>

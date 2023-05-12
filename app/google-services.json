@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "851578319321",
+    "project_id": "seguimientodemascotas",
+    "storage_bucket": "seguimientodemascotas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851578319321:android:70d6088198cf80a70469c8",
+        "android_client_info": {
+          "package_name": "brenda.bojorquez.seguimientocuidadomascotas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851578319321-0jlaus4isn7ssh9fe8r9n90ua731hn31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHLoHS_xHMDsWQ6MX7oF_JA-DV8k7fsMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851578319321-0jlaus4isn7ssh9fe8r9n90ua731hn31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

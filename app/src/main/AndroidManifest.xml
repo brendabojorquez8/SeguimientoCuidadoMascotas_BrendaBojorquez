@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SeguimientoCuidadoMascotas"
+        tools:targetApi="31">
+        <activity
+            android:name=".historial.AgregarvacunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".historial.AgregarenfermedadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarmascotaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".NuevapetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregagastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DesarrolloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GaleriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GastosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticulosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VeterinariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".historial.AgregarpadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".historial.PadecimientosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".historial.EnfermedadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".historial.VacunasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PesodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".temp.TemperaturadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".temp.MedicionMTempActivity"
+            android:exported="false" />
+        <activity
+            android:name=".temp.ComoTempActivity"
+            android:exported="false" />
+        <activity
+            android:name=".frecres.ComoRespActivity"
+            android:exported="false" />
+        <activity
+            android:name=".frecres.RespiradActivity"
+            android:exported="false" />
+        <activity
+            android:name=".freccard.ComoCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".frecres.MedicionMRespActivity"
+            android:exported="false" />
+        <activity
+            android:name=".freccard.MedicionmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".freccard.CardiacadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfogenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignosvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MascotasperfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DuenoperfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.NuevacontrasenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.CodigoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.ContrasenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.CrearcuentaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

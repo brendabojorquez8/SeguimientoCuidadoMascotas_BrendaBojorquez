@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Seguimiento de Mascotas</string>
+    <string name="botonCuenta">Continuar</string>
+    <string name="contraOlvidada">Introduczca el correo ligado a la cuenta</string>
+    <string name="contraOlvidadaT">¿Olvidaste tu contraseña?</string>
+    <string name="codigo">Introduzca el código que le hemos enviado</string>
+
+    <string name="frecCarP0">Observa con deterimiento a tu mascota. Acercate con cuidado y calm, tratando de no asustar a tu mascota.</string>
+    <string name="frecCarP1">Toma a tu mascota y recuestala. Busca el punto dondese une la pata trasera y su cintura. O coloca tu mano es nu pecho</string>
+    <string name="frecCarP2">Cuenta durante 15 segundos la cantidad de latidos</string>
+    <string name="frecCarP3">Multiplica el numero de latido por 4, así obtendras su frecuencia de un minuto</string>
+
+    <string name="respP0">Observa con detenimiento a tu mascota. Acercate con cuidado y calma, tratando de no asustar a tu mascota.</string>
+    <string name="respP1">Observa como sube y baja su caja torácica y el abdomen, de preferencia desde frente o detras del animal</string>
+    <string name="respP2">Cuenta durante 15 segundos la cantidad de latidos</string>
+    <string name="respP3">Multiplica el numero de latido por 4, así obtendras su frecuencia de un minuto</string>
+
+    <string name="tempP0">Observa con detenimiento a tu mascota. Acercate con cuidado y calma, tratando de no asustar a tu mascota.</string>
+    <string name="tempP1">Sujeta con cuidado y correctamente a la mascota, manteniendolo inmovil o distrayendolo con un juguete o comida</string>
+    <string name="tempP2">Aplica vaselina del tamaño de un guisante en el extremo del termometro e introducelo en el recto (una pulgada es suficiente). Espera el pitido del termometro</string>
+    <string name="link">Link a un video explicativo</string>
+
+    <string name="msj1">Revisemos el avance de Timón durante el último mes</string>
+    <string name="msj2">¡De acuerdo!</string>
+    <string name="msj3">Durante el último mes Timón asistió a su cita de control. mantuvo un ritmo promedio de 110LPM, una frecuencia de respiración de 15xmin, su comportamiento fue habitual con un aumento de aperiro que se vio reflejado en aumentar 0.2Kg de peso, acercandose así a la meta propuesta del mes</string>
+
+
+
+</resources>
