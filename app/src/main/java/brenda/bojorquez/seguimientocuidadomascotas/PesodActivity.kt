@@ -146,12 +146,12 @@ class PesodActivity : AppCompatActivity() {
             val numberPickerU: NumberPicker = view.findViewById(R.id.numberPickerU) as NumberPicker
             val numberPickerD: NumberPicker = view.findViewById(R.id.numberPickerD) as NumberPicker
             val item: TextView = view.findViewById(R.id.item) as TextView
-            numberPickerD.maxValue = 10
+            numberPickerD.maxValue = 100
             numberPickerD.minValue = 0
 
             // Establecer los valores mínimos y máximos
             numberPickerU.minValue = 0
-            numberPickerU.maxValue = 10
+            numberPickerU.maxValue = 100
 
             // Crear un arreglo de String con los valores de 10 en 10
             val displayedValues = arrayOfNulls<String>(11)
